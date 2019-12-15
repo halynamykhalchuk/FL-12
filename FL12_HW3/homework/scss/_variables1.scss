@@ -1,0 +1,13 @@
+$font: ( main: 'Source Sans Pro', light-content: 'Hind', dark-content: 'Fresca');
+$main-body-font: map-get($font, main), sans-serif;
+$content-font: map-get($font, light-content), sans-serif;
+
+$content-bg: #21232e;
+$content-text: #c0c3ce;
+$btn-color: #699900;
+$btn-link: #fff;
+$right-gradient: #315fcd;
+$left-gradient: #679707;
+
+$header-background: #8F8060 url("../img/m-h-day.jpg") center/cover;
+$section-radius: 5px;
