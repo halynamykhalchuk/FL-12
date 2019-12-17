@@ -1,0 +1,180 @@
+body {
+  color: #777;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar {
+  background-color: #fff;
+  padding: 5px;
+  width: 100%;
+}
+
+.sidebar-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sidebar .logo {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.sidebar .menu {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.2em;
+}
+
+.sidebar .menu-item {
+  padding-left: 45px;
+}
+
+.header {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/home-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.header .header-inner {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.header .heading {
+  color: #fff;
+  font-size: 4.5em;
+  margin: 0;
+  text-align: center;
+}
+
+.header .subheading {
+  color: #bfba55;
+  font-size: 1.1em;
+  margin: 25px;
+}
+
+.header .header-button {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  background: #fff;
+  padding: 15px 25px;
+  border-radius: 20px;
+}
+
+.container {
+  max-width: 945px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.container .card {
+  padding-bottom: 43px;
+  padding-top: 43px;
+  border-bottom: 1px solid #aaa;
+}
+
+.container .card-pic {
+  width: 100%;
+}
+
+.container .card-heading {
+  color: #000;
+  font-size: 2em;
+}
+
+.container .author-info {
+  display: flex;
+  align-items: center;
+}
+
+.container .author-pic {
+  border-radius: 100%;
+  max-width: 44px;
+}
+
+.author-name,
+.comment-date,
+.comment-amount {
+  padding-left: 25px;
+}
+
+.container .comment-text {
+  line-height: 25px;
+}
+
+.container .card-button {
+  display: inline-block;
+  margin-top: 15px;
+  border: 1px solid #aaa;
+  padding: 15px 35px;
+  border-radius: 20px;
+}
+
+footer {
+  background: #000;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  margin: auto;
+  padding: 50px;
+  max-width: 945px;
+  font-size: 0.9em;
+  justify-content: space-between;
+}
+
+.footer-container span {
+  display: block;
+}
+
+.footer-container .footer-inner-left,
+.footer-inner-right {
+  max-width: 350px;
+}
+
+.footer-container .address-info {
+  font-style: normal;
+  line-height: 35px;
+  margin: 1em 0;
+}
+
+.footer-container .footer-heading {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.footer-container .footer-text {
+  line-height: 25px;
+}
+
+.footer-container .footer-text span {
+  padding-top: 20px;
+}
+
+.button:hover {
+  color: #bfba55;
+}
+
+.menu-link:hover {
+  color: #bfba55;
+}
